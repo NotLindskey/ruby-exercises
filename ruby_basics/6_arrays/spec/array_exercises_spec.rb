@@ -4,13 +4,12 @@ require_relative '../exercises/array_exercises'
 RSpec.describe 'Array Exercises' do
   describe 'nil array exercise' do
 
-    xit 'returns an array containing 5 nil values' do
+    it 'returns an array containing 5 nil values' do
       expect(nil_array(5)).to eq([nil, nil, nil, nil, nil])
     end
-
     
     # remove the 'x' from the line below to unskip the test
-    xit 'returns an array containing 2 nil values' do
+    it 'returns an array containing 2 nil values' do
       expect(nil_array(2)).to eq([nil, nil])
     end
   end
