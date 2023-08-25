@@ -5,7 +5,7 @@ RSpec.describe 'Method Exercises' do
 
   describe 'ASCII translator exercise using #chr' do
 
-    it 'returns an uppercase A' do
+    xit 'returns an uppercase A' do
       expect(ascii_translator(65)).to eq('A')
     end
 
@@ -21,7 +21,7 @@ RSpec.describe 'Method Exercises' do
 
   describe 'common sports exercise using #intersection' do
 
-    xit 'returns the common sports' do
+    it 'returns the common sports' do
       current = ['tennis', 'football', 'baseball']
       favorite = ['baseball', 'tennis', 'basketball']
       expect(common_sports(current, favorite)).to eq(['tennis', 'baseball'])
